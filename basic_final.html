@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href= "basic_final.css" rel = "stylesheet">
+    <script src= "basic.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+    <div class="topnav">
+      <a href="final.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="Adult.html" class="w3-bar-item w3-button">ADULT HEALTH</a>
+    <a href="kids_final.html" class="w3-bar-item w3-button">KIDS HEALTH</a>
+    <a href="hygiene_final.html" class="w3-bar-item w3-button">HYGIENE</a>
+    <a href="Learn.html" class="w3-bar-item w3-button">LEARN</a>
+    <a href="Games_mainpage.html" class="w3-bar-item w3-button">GAMES</a>
+    </div>
+
+
+<div class= "title">
+  <h3><Strong>Basic English Words</Strong></h3>
+</div>
+
+
+<p align="left">
+<button id="basic" class="submit-button"> TAKE ME TO QUIZ </button>
+<script type="text/javascript">
+    document.getElementById("basic").onclick = function () {
+    location.href = "basic_quiz_final.html"
+  };
+</script>
+</p>
+
+    <body>
+
+        <form id = "quiz" name = "quiz">
+
+          <img src= "hello.jpg" alt= "hi" height= "100" width= "auto">
+          <p class = "questions">Write this word in English</p>
+          <input id = "textbox" type = "text" name = "question1">
+          <p><input id = "button" type = "button" value = "Submit" onclick = "check(question1.value, 'hello')"></p>
+
+          <p><img src= "yes.jpg" alt= "yes" height= "100" width= "auto"></p>
+          <p class = "questions">Write this word in English</p>
+          <input id = "textbox" type = "text" name = "question2">
+          <p><input id = "button" type = "button" value = "Submit" onclick = "check(question2.value, 'yes')"></p>
+
+          <p><img src= "no.jpg" alt= "no" height= "100" width= "auto"></p>
+          <p class = "questions">Write this word in English</p>
+          <input id = "textbox" type = "text" name= "question3">
+          <p><input id = "button" type = "button" value= "Submit" onClick = "check(question3.value, 'no')"</p>
+
+          <p><img src= "time.jpg" alt= "no" height= "100" width= "auto"></p>
+          <p class = "questions">Write this word in English</p>
+          <input id = "textbox" type = "text" name= "question4">
+          <p><input id = "button" type = "button" value= "Submit" onClick = "check(question4.value, 'time')"</p>
+
+          <p><img src= "please.jpg" alt= "no" height= "100" width= "auto"></p>
+          <p class = "questions">Write this word in English</p>
+          <input id = "textbox" type = "text" name= "question5">
+          <p><input id = "button" type = "button" value= "Submit" onClick = "check(question5.value, 'please')"</p>
+
+          <p><img src= "woman.jpg" alt= "no" height= "100" width= "auto"></p>
+          <p class = "questions">Write this word in English</p>
+          <input id = "textbox" type = "text" name= "question6">
+          <p><input id = "button" type = "button" value= "Submit" onClick = "check(question6.value, 'women')"</p>
+
+          <div id = "after_submit">
+          </div>
+
+
+        </form>
+
+
+
+  </body>
+</html>
