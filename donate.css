@@ -1,0 +1,87 @@
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 300;
+}
+
+.topnav a:hover {
+  background-color: green;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: green;
+}
+
+.donate{
+  background-color:white;
+  overflow:hidden;
+}
+
+.donate a{
+  float: right;
+  color: green;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 300;
+  position: absolute;
+  right: 150px;
+  bottom: 560px;
+  background-color: white;
+  padding: 10px 16px;
+}
+
+.donate a:hover {
+  background-color: green;
+  color: white;
+}
+
+.donate a.active {
+  background-color: green;
+  color: white;
+}
+.playbuttons{
+  /* float: left; */
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 300;
+  position: left;
+  right: 150px;
+  bottom: 555px;
+  background-color: green;
+  padding: 10px 16px;
+}
+
+h2 {
+  position: right;
+  padding-top: 30px;
+  padding-left: 0px;
+  color: black;
+  text-align: left;
+  /* text-align: center; */
+  text-decoration: none;
+  font-size: 30px;
+  font-family:'Quicksand', sans-sans-serif;
+  font-weight: 300;
+}
+
+.info {
+  font-family: 'Quicksand', sans-sans-serif;
+  font-size: 20px;
+  font-weight:10px;
+  color: black;
+}
