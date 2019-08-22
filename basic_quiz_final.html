@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href ="basic_quiz_final.css" rel ="stylesheet">
+<script src = "basic_english_quiz.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="topnav">
+      <div class="topnav">
+        <a href="final.html" class="w3-bar-item w3-button">HOME</a>
+      <a href="Adult.html" class="w3-bar-item w3-button">ADULT HEALTH</a>
+      <a href="kids_final.html" class="w3-bar-item w3-button">KIDS HEALTH</a>
+      <a href="hygiene_final.html" class="w3-bar-item w3-button">HYGIENE</a>
+      <a href="Learn.html" class="w3-bar-item w3-button">LEARN</a>
+      <a href="Games_mainpage.html" class="w3-bar-item w3-button">GAMES</a>
+      </div>
+<div class= "title">
+  <h3><strong>Basic English Words Quiz</strong></h3>
+</div>
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">How do you say "hello" in English?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">How do you say "yes" in English?</p>
+<input type = "radio" id = "mc" name = "question2" value = "yes"> Yes <br>
+<input type = "radio" id = "mc" name = "question2" value = "no"> No <br>
+
+<p class = "questions">How do you say "no" in English?</p>
+<input id = "textbox" type = "text" name = "question3">
+
+<p class = "questions">How do you say "see" in English?</p>
+<input type = "radio" id = "mc" name = "question4" value = "sea"> Sea <br>
+<input type = "radio" id = "mc" name = "question4" value = "see"> See <br>
+
+<p class = "questions">How do you say "me" in English?</p>
+<input id = "textbox" type = "text" name = "question5">
+
+<p class = "questions">How do you say "please" in English?</p>
+<input type = "radio" id = "mc" name = "question6" value = "please"> Please <br>
+<input type = "radio" id = "mc" name = "question6" value = "place"> Place <br>
+
+<p class = "questions">How do you say "people" in English?</p>
+<input id = "textbox" type = "text" name = "question7">
+
+<p class = "questions">How do you say "time" in English?</p>
+<input type = "radio" id = "mc" name = "question8" value = "time"> Time <br>
+<input type = "radio" id = "mc" name = "question8" value = "day"> Day <br>
+
+<p class = "questions">How do you say "woman" in English?</p>
+<input id = "textbox" type = "text" name = "question9">
+
+<p class = "questions">How do you say "man" in English?</p>
+<input type = "radio" id = "mc" name = "question10" value = "man"> Man <br>
+<input type = "radio" id = "mc" name = "question10" value = "female"> Female <br>
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check()">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<!-- <p id = "message"></p>
+<img id = "picture"> -->
+</div>
+
+</body>
+</html>
