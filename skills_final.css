@@ -1,0 +1,181 @@
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 300;
+}
+
+.topnav a:hover {
+  background-color: green;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: green;
+}
+
+.playbuttons{
+  /* float: left; */
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 300;
+  position: left;
+  right: 150px;
+  bottom: 555px;
+  background-color: green;
+  padding: 10px 16px;
+}
+
+.title {
+  font-size: 35px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+.clothes{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.clothes_info{
+  font-size: 13px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.sewing{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.sewing_info{
+  font-size: 13px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.knitting{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+.kitting_info{
+  font-size: 13px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+.fire{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+.fire_info{
+  font-size: 13px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.matches{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.matches_info{
+  font-size: 13px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+.nose{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+.nose_info{
+  font-size: 13px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.burns{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.burns_info{
+  font-size: 13px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.choking{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.choking_info{
+  font-size: 13px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.wounds{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.wounds_info{
+  font-size: 13px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.gardening{
+  font-size: 15px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.gardening_info{
+  font-size: 13px;
+  font-family: 'Quicksand', sans-sans-serif;
+  font-weight: 200;
+  text-align: left;
+}

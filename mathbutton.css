@@ -1,0 +1,51 @@
+#home {
+  margin: 50px auto;
+  display:block;
+  width:300px;
+  height:80px;
+  border:3px solid black;
+  background-color: rgba(255,255,255,0);
+  color:black;
+  font-family:sans-serif;
+  font-weight: bold;
+  font-size:16pt;
+  border-radius: 5px;
+  align-items:center;
+  transition: background-color 1000ms, color 1000ms;
+
+  transition: background-color 1000ms, color 1000ms;
+
+}
+
+#home:hover{
+  background-color:rgba(255,255,255,1);
+  color:#22;
+  cursor:pointer;
+
+  transition: background-color 1000ms, color 1000ms;
+}
+
+#button1{
+  margin: 50px auto;
+  display:block;
+  width:100px;
+  height:60px;
+  border:3px solid black;
+  background-color: rgba(255,255,255,0);
+  color:black;
+  font-family:sans-serif;
+  font-weight: bold;
+  font-size:10pt;
+  border-radius: 3px;
+  transition: background-color 1000ms, color 1000ms;
+
+}
+
+#button1:hover{
+  background-color:rgba(255,255,255,1);
+  color:#22;
+  cursor:pointer;
+
+  transition: background-color 1000ms, color 1000ms;
+
+}

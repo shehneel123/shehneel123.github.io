@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Grammar Skills: Quiz</title>
+<link href ="writingquiz.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "writingquiz.js"></script>
+
+
+</head>
+
+
+<div class="topnav">
+  <div class="topnav">
+    <a href="final.html" class="w3-bar-item w3-button">HOME</a>
+  <a href="Adult.html" class="w3-bar-item w3-button">ADULT HEALTH</a>
+  <a href="kids_final.html" class="w3-bar-item w3-button">KIDS HEALTH</a>
+  <a href="hygiene_final.html" class="w3-bar-item w3-button">HYGIENE</a>
+  <a href="Learn.html" class="w3-bar-item w3-button">LEARN</a>
+  <a href="Games_mainpage.html" class="w3-bar-item w3-button">GAMES</a>
+  </div>
+<div class= "title">
+  <h3><strong>Grammar Quiz</strong></h3>
+</div>
+
+
+<form id = "quiz" name = "quiz">
+
+<p class = "questions">What is the noun in the sentence. The sky is blue. </p>
+<input type = "radio" id = "mc" name = "question1" value = "sky"> sky <br>
+<input type = "radio" id = "mc" name = "question1" value = "blue">blue <br>
+<input type = "radio" id = "mc" name = "question1" value= "the">the <br>
+
+<p class = "questions">Is the word yellow a noun, adjective, or adverb?</p>
+<input type = "radio" id = "mc" name = "question2" value = "noun"> noun <br>
+<input type = "radio" id = "mc" name = "question2" value = "adjective"> adjective <br>
+<input type = "radio" id = "mc" name = "question2" value = "adverb"> adverb <br>
+
+<p class = "questions">What is a person, place, or thing?</p>
+<input id = "textbox" type = "text" name = "question3">
+
+<p class = "questions">Would a period, question mark or exclamation point go at the end of the following sentence: <br> Help there is a fire </p>
+<input type = "radio" id = "mc" name = "question4" value = "period"> period <br>
+<input type = "radio" id = "mc" name = "question4" value = "question mark"> question mark<br>
+<input type= "radio" id  = "mc" name = "question4"value = "exclamation point">exclamation point<br>
+
+<p class = "questions">Is the word Jordan a noun, adjective, or adverb? </p>
+<input type = "radio" id = "mc" name = "question5" value = "noun"> noun <br>
+<input type = "radio" id = "mc" name = "question5" value = "adjective"> adjective <br>
+<input type = "radio" id = "mc" name = "question5" value = "adverb"> adverb <br>
+
+
+<p class = "questions">What is the adjective in the following sentence: "The cat is big"</p>
+<input type = "radio" id = "mc" name = "question6" value = "man"> cat <br>
+<input type = "radio" id = "mc" name = "question6" value = "female"> big <br>
+<input type = "radio" id = "mc" name = "question6" value = "female"> the <br>
+
+<p class = "questions">Which word in the following sentence should be capatilized: "jordan is a country"</p>
+<input type = "radio" id = "mc" name = "question7" value = "man"> is <br>
+<input type = "radio" id = "mc" name = "question7" value = "female"> country <br>
+<input type = "radio" id = "mc" name = "question7" value = "female"> jordan <br>
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check()">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<!-- <p id = "message"></p>
+<img id = "picture"> -->
+</div>
