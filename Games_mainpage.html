@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel= "Stylesheet" href= "Games_mainpage.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  </head>
+  <div align="center">
+
+  <body>
+    <div class="topnav">
+      <a href="final.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="Adult.html" class="w3-bar-item w3-button">ADULT HEALTH</a>
+    <a href="kids_final.html" class="w3-bar-item w3-button">KIDS HEALTH</a>
+    <a href="hygiene_final.html" class="w3-bar-item w3-button">HYGIENE</a>
+    <a href="Learn.html" class="w3-bar-item w3-button">LEARN</a>
+    <a href="Games_mainpage.html" class="w3-bar-item w3-button">GAMES</a>
+    </div>
+<div class= "title">
+  <h3><strong>Pick Which Game You Want to Play</strong></h3>
+</div>
+
+<button id="tic" class="float-left submit-button"> TIC TAC TOE </button>
+<script type="text/javascript">
+    document.getElementById("tic").onclick = function () {
+    location.href = "Game.html"
+  };
+</script>
+
+<form action="https://play2048.co/">
+          <button id="play2048" class="float-left submit-button"> 2048 </button>
+         <!-- <button type="submit">2048</button> -->
+</form>
+
+<form action="https://macek.github.io/google_pacman/">
+          <button id="pacman" class="float-left submit-button"> PACMAN </button>
+         <!-- <button type="submit">2048</button> -->
+</form>
+
+<form action="https://flappybird.io/">
+          <button id="flappy" class="float-left submit-button"> FLAPPY BIRD </button>
+         <!-- <button type="submit">2048</button> -->
+</form>
+
+</body>
+</html>
